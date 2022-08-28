@@ -1,3 +1,4 @@
+// To implement DDA algorithm for drawing a line segment between two given end points A(x1,y1) and B(x2,y2).#include<stdio.h>
 #include<stdio.h>
 #include<graphics.h>
 #include<math.h>
@@ -18,11 +19,11 @@ void main()
     dy = y2 - y1;
     if (abs(dx) > abs(dy))
     {
-	steps = abs(dx);
+	    steps = abs(dx);
     }
     else
     {
-	steps = abs(dy);
+	    steps = abs(dy);
     }
     xinc = dx/steps;
     yinc = dy/steps;
@@ -30,17 +31,13 @@ void main()
     y = y1;
     for (k = 1; k <= steps; k++)
     {
-	delay(100);
-	y += yinc;
-	x += xinc;
-	putpixel(round(x),round(y),WHITE);
+	    delay(100);
+	    y += yinc;
+	    x += xinc;
+	    putpixel(round(x),round(y),WHITE);
     }
     outtextxy(50,20,"Subodh");
     outtextxy(200,20,"DDA");
-    sprintf(x1v,"%d",x1);
-    sprintf(y1v,"%d",y1);
-    sprintf(x2v,"%d",x2);
-    sprintf(y2v,"%d",y2);
     outtextxy(x1+5,y1-5, "(x1,y1)");
     outtextxy(x2+5,y2+5, "(x2,y2)");
     getch();

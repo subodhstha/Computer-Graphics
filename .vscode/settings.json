@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "2_DDA.C": "cpp",
-        "1_line.C": "cpp"
+        "1_line.C": "cpp",
+        "3_BRES~1.C": "cpp",
+        "3_bresenham.C": "cpp"
     }
 }
