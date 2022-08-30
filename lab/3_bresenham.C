@@ -7,7 +7,6 @@ void main()
 {
     int x, y, x1, y1, x2, y2, p, dx, dy;
     int gd = DETECT, gm;
-    initgraph(&gd, &gm,"c:\\turboc3\\bgi");
 	printf("Enter the x-coordinate of the first point \n");
 	scanf("%d",&x1);
 	printf("\n Enter the y-coordinate of the first point \n");
@@ -16,6 +15,7 @@ void main()
 	scanf("%d",&x2);
 	printf("\n Enter the y-coordinate of the second point \n");
 	scanf("%d", &y2);
+    initgraph(&gd, &gm,"c:\\turboc3\\bgi");
     printf("subodh");
     dx = x2 - x1;
     dy = y2 - y1;

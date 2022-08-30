@@ -9,7 +9,6 @@ void main()
 {
     int xc, yc, R;
     int gd = DETECT, gm;
-    initgraph(&gd, &gm, "c://turboc3\\bgi");
     printf("Enter the center of circle \n");
     printf("Xc = ");
     scanf("%d",&xc);
@@ -17,6 +16,7 @@ void main()
     scanf("%d", &yc);
     printf("Enter the radius of the circle ");
     scanf("%d", &R);
+    initgraph(&gd, &gm, "c://turboc3\\bgi");
     draw_circle(xc, yc, R);
     getch();
     closegraph();

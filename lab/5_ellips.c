@@ -13,11 +13,11 @@ void main()
     int rx, ry;
     float p1, p2;
     clrscr();
-    initgraph(&gd, &gm, "c:\\turboc3\\bgi");
     printf("Enter the center point ");
     scanf("%d %d", &xc, &yc);
     printf("Enter the value for Rx & Ry ");
     scanf("%d %d",&rx, &ry);
+    initgraph(&gd, &gm, "c:\\turboc3\\bgi");
     x = 0;
     y = ry;
     display();
