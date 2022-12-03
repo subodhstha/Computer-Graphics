@@ -18,6 +18,7 @@ void main()
     printf("Enter the value for Rx & Ry ");
     scanf("%d %d",&rx, &ry);
     initgraph(&gd, &gm, "c:\\turboc3\\bgi");
+    printf("subodh");
     x = 0;
     y = ry;
     display();

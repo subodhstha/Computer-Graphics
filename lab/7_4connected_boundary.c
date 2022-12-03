@@ -42,7 +42,8 @@ void main()
     scanf("%d", &bcolor); 
     printf("Enter new color : "); 
     scanf("%d", &fcolor); 
-    initgraph(&gd, &gm, "C:\\TurboC3\\BGI"); 
+    initgraph(&gd, &gm, "C:\\TurboC3\\BGI");
+    printf("subodh");
     circle(200,200,45); 
     boundary_fill(x, y, fcolor, bcolor); 
     getch();

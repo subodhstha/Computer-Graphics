@@ -30,7 +30,8 @@ void main()
     scanf("%d", &bcolor); 
     printf("Enter new color : "); 
     scanf("%d", &fcolor); 
-    initgraph(&gd, &gm, "C:\\TurboC3\\BGI"); 
+    initgraph(&gd, &gm, "C:\\TurboC3\\BGI");
+    printf("subodh"); 
     rectangle(200,200,245,245); 
     boundary_fill(x, y, fcolor, bcolor); 
     getch();

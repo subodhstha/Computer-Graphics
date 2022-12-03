@@ -17,6 +17,7 @@ void main()
     printf("Enter the radius of the circle ");
     scanf("%d", &R);
     initgraph(&gd, &gm, "c://turboc3\\bgi");
+    printf("subodh");
     draw_circle(xc, yc, R);
     getch();
     closegraph();
