@@ -1,4 +1,4 @@
-// To implement DDA algorithm for drawing a line segment between two given end points A(x1,y1) and B(x2,y2).#include<stdio.h>
+// To implement DDA algorithm for drawing a line segment between two given end points A(x1,y1) and B(x2,y2).
 #include<stdio.h>
 #include<graphics.h>
 #include<math.h>

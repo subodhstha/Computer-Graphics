@@ -7,7 +7,8 @@
 int x1,x2,y1,y2,mx,my,depth;
 void draw();
 void scale();
-void main() {
+void main()
+{
     int gd=DETECT,gm,c;
     initgraph(&gd,&gm,"C:\\TurboC3\\BGI");
     printf("subodh");

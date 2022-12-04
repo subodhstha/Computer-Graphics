@@ -1,4 +1,4 @@
-//   To  implement  Bresenham’s  line  drawing  algorithm  for  drawing  a  line  segment  between  two given endpoints A(x1, y1) and B(x2, y2).
+// To implement Bresenham’s line drawing algorithm for drawing a line segment between two given endpoints A(x1, y1) and B(x2, y2).
 #include<stdio.h>
 #include<conio.h>
 #include<graphics.h>

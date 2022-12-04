@@ -20,7 +20,8 @@ void main()
     depth=(x2-x1)/4;
     mx=(x1+x2)/2;
     my=(y1+y2)/2;
-    draw(); getch();
+    draw();
+    getch();
     cleardevice();
     rotate();
     getch(); 
@@ -31,7 +32,8 @@ void draw() {
     outtextxy(x1+50,y1-15,"Object");
 }
 
-void rotate() {
+void rotate()
+{
     float t;
     int a1,b1,a2,b2,dep;
     printf("Enter the angle to rotate: ");

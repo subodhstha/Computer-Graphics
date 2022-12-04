@@ -26,6 +26,5 @@ void flood(int x, int y, int fill_col, int old_col)
         flood(x-1,y,fill_col,old_col);
         flood(x,y+1,fill_col,old_col);
         flood(x,y-1,fill_col,old_col);
-    }
-    
+    } 
 }

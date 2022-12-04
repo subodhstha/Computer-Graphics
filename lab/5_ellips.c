@@ -1,4 +1,4 @@
-// To implement the Ellipse Generation Algorithm for drawing an ellipse of given center (x, y) and radius rxand ry.
+// To implement the Ellipse Generation Algorithm for drawing an ellipse of given center (x, y) and radius rx and ry.
 #include<stdio.h>
 #include<conio.h>
 #include<graphics.h>

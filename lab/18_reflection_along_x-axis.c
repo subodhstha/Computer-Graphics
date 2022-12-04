@@ -13,17 +13,16 @@ void PolyLine()
     line(0,240,640,240);
     line(320,0,320,480);
     for (iCnt=0; iCnt<3; iCnt++)
-        {
-            line(PolygonPoints[iCnt][0],PolygonPoints[iCnt][1],
-            PolygonPoints[(iCnt+1)%3][0],PolygonPoints[(iCnt+1)%3][1]);
-        }
+    {
+        line(PolygonPoints[iCnt][0],PolygonPoints[iCnt][1],PolygonPoints[(iCnt+1)%3][0],PolygonPoints[(iCnt+1)%3][1]);
+    }
 }
 void Reflect()
 {
     float Angle;
     int iCnt;
     int Tx,Ty;
-    printf("endl");;
+    printf("endl");
     for (iCnt=0; iCnt<3; iCnt++)
     {
         PolygonPoints[iCnt][1] = (480 - PolygonPoints[iCnt][1]);
